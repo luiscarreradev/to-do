@@ -1,6 +1,7 @@
 import './App.css';
 import Logotipo from './components/Logotipo';
 import Tarea from './components/Tarea';
+import TareaFormulario from './components/TareaFormulario';
 import logo from './images/luiswhite.png';
 
 function App() {
@@ -9,8 +10,9 @@ function App() {
       <Logotipo logotipo={logo} />
       <div className="tareas-lista-principal">
         <h1>Mis Tareas</h1>
+        <TareaFormulario />
         <Tarea
-          texto='Hola putita'
+          texto='Aprender React'
           completada={false}
         />
       </div>
