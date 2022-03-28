@@ -1,0 +1,14 @@
+.luiscarrera-logo-contenedor {
+  width: 100%;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.luiscarrera-logo {
+  min-width: 260px;
+  max-width: 500px;
+  height: auto;
+  padding: 0 1.2rem;
+}
