@@ -1,5 +1,5 @@
 .tarea-contenedor {
-  min-width: 260px;
+  width: 100%;
   min-height: 65px;
   margin: .5rem 0;
   padding: .8rem 1.5rem .8rem 1.5rem;
@@ -11,6 +11,20 @@
   cursor: pointer;
   font-size: clamp(1.4rem, 1vw + 1rem, 2.2rem);
   background-color: #1b1b32;
+}
+
+/* Colores */
+
+.tarea-contenedor:nth-child(3n + 1) {
+  background-color: #1b1b32;
+}
+
+.tarea-contenedor:nth-child(3n + 2) {
+  background-color: #2a2a40;
+}
+
+.tarea-contenedor:nth-child(3n + 3) {
+  background-color: #3b3b4f;
 }
 
 .tarea-texto {
@@ -39,3 +53,4 @@
   background-color: #5a01a7;
   text-decoration: line-through;
 }
+
