@@ -1,7 +1,6 @@
 import './App.css';
+import ListaTareas from './components/ListaTareas';
 import Logotipo from './components/Logotipo';
-import Tarea from './components/Tarea';
-import TareaFormulario from './components/TareaFormulario';
 import logo from './images/luiswhite.png';
 
 function App() {
@@ -10,11 +9,7 @@ function App() {
       <Logotipo logotipo={logo} />
       <div className="tareas-lista-principal">
         <h1>Mis Tareas</h1>
-        <TareaFormulario />
-        <Tarea
-          texto='Aprender React'
-          completada={false}
-        />
+        <ListaTareas />
       </div>
     </div>
   );
